@@ -1,4 +1,4 @@
-# Mini guideline - nhóm: ______  |  người gán: ______  |  ngày: ______
+# Mini guideline - nhóm: ______  |  người gán: Đỗ Hoàng Minh  |  ngày: 16/09/2026
 
 > Điền file này **trong lúc** gán nhãn, không phải sau khi xong. Mỗi lần bạn dừng lại
 > hơn 10 giây để phân vân, đó là một dòng phải ghi vào đây.
@@ -29,26 +29,26 @@ một câu văn chung chung.
 
 ## 3. Ba ca mơ hồ đã gặp (bắt buộc, ghi ít nhất 3)
 
-### Ca 1 - ảnh `______`, người thứ `___`, khớp `______`
+### Ca 1 - ảnh `train_02`, người thứ `person 37`, khớp `mắt, mũi`
 
-- Mơ hồ ở chỗ nào:
-- Bạn quyết thế nào:
-- Vì sao:
-- Nếu người khác quyết ngược lại thì model học sai cái gì:
+- Mơ hồ ở chỗ nào: `Người quay hẳn mặt đi`
+- Bạn quyết thế nào: `Đặt điểm ước lượng v=1`
+- Vì sao: `Mặt chỉ bị che, chứ không mất trong khung hình`
+- Nếu người khác quyết ngược lại thì model học sai cái gì: `Model sẽ học những người quay mặt đi là không có 5 bộ phận trên mặt`
 
-### Ca 2 - ảnh `______`, người thứ `___`, khớp `______`
+### Ca 2 - ảnh `train_03`, người thứ `person 73`, khớp `tay`
 
-- Mơ hồ ở chỗ nào:
-- Bạn quyết thế nào:
-- Vì sao:
-- Nếu người khác quyết ngược lại thì model học sai cái gì:
+- Mơ hồ ở chỗ nào: `Người đó đứng sau người khác, phần tay bị che đi`
+- Bạn quyết thế nào: `Đặt điểm ước lượng v=1`
+- Vì sao: `Tay người đó bị che đi, chứ không mất đi`
+- Nếu người khác quyết ngược lại thì model học sai cái gì: `Model sẽ học những người đứng sau người khác là không có tay`
 
-### Ca 3 - ảnh `______`, người thứ `___`, khớp `______`
+### Ca 3 - ảnh `train_04`, người thứ `person 109`, khớp `LEFT_EAR, RIGHT_EAR`
 
-- Mơ hồ ở chỗ nào:
-- Bạn quyết thế nào:
-- Vì sao:
-- Nếu người khác quyết ngược lại thì model học sai cái gì:
+- Mơ hồ ở chỗ nào: `Người đó đội mũ bảo hiểm, phần tai bị che đi`
+- Bạn quyết thế nào: `Đặt điểm ước lượng v=1`
+- Vì sao: `Người đó đội mũ bảo hiểm nên tai được che lại, chứ không mất đi`
+- Nếu người khác quyết ngược lại thì model học sai cái gì: `Model sẽ học những người đội mũ bảo hiểm là không có tai`
 
 ## 4. Sau khi so visibility report với bạn cùng nhóm
 
